@@ -5,8 +5,6 @@ name: Build app
 # architecture so nothing is cross-compiled, and uploads one artifact per
 # target:
 #
-#   macOS    arm64 (Apple silicon)   x86_64 (Intel)     -> Concat-*.dmg
-#   Linux    x86_64                  aarch64            -> Concat-*.deb, .rpm, .AppImage, .pkg.tar.zst
 #   Windows  x86_64                  (aarch64, #326)    -> Concat-*-setup.exe, .msi
 #
 # Installers and binaries only: the program is not shipped as an archive
